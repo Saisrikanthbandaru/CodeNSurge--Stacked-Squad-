@@ -92,3 +92,91 @@ h2 {
     width: 90%;
   }
 }
+.bg-container {
+    background-image: linear-gradient(#b96fa1, #5a3f8c);
+    min-height: 170vh;
+    padding: 20px;
+}
+
+.heading {
+    color: #ffffff;
+    font-family: roboto;
+}
+
+.para {
+    color: #ffffff;
+    font-family: roboto;
+    font-size: 23px;
+}
+
+.condition {
+    color: #ffffff;
+    font-family: roboto;
+}
+
+.weather-flex {
+    display: flex;
+    align-items: center;
+
+}
+
+.img {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.weather-container {
+    background-color: #ffffff20;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 10px;
+
+
+
+}
+
+.line {
+    background-color: #ffffff20;
+}
+
+.weather-flex {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.day {
+    color: #ffffff;
+    font-family: roboto;
+    padding-right: 20px;
+
+}
+
+.img1 {
+    padding-right: 20px;
+
+    width: 100px;
+}
+
+.degrees {
+    color: #ffffff;
+    font-family: roboto;
+    padding-right: 20px;
+
+}
+
+.weather {
+    color: #ffffff;
+    font-family: roboto;
+    padding-left: 20px;
+
+}
+
+@media screen and (min-width:900) {
+    .weather-flex {
+        display: flex;
+        flex-direction: row;
+    }
+}
